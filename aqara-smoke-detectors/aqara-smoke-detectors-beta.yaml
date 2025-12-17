@@ -16,7 +16,6 @@ blueprint:
         device:
           filter:
             - manufacturer: Aqara
-              model: JY-GZ-01AQ
           multiple: true
     notify_device:
       name: Devices to notify
