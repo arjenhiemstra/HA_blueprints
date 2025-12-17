@@ -16,6 +16,7 @@ blueprint:
         device:
           filter:
             - manufacturer: Aqara
+              model: Smart smoke detector
           multiple: true
     notify_device:
       name: Devices to notify
